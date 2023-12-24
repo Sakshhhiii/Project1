@@ -1,0 +1,17 @@
+h1{
+    color:brown;
+    border: 2px solid beige;
+  }
+  
+  button{
+    margin:5px;
+    padding :15px;
+    background-color:beige;
+    font-size: 30px; 
+    color:hotpink;
+  }
+  #display
+  {
+    width:250px;
+    margin-bottom :10px;
+  };
