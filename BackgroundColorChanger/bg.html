@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> sakshi</title>
+</head>
+
+<body>
+  <h1 style="display:flex; justify-content: center; "> color changing boxes</h1>
+<div class="oreo" style="display: flex; justify-content:center; align-items:center;">
+
+  <div class="buttons" id="skyblue" style="border:2px
+  solid red;
+  background-color: skyblue;
+  height:155px; 
+  width:223px;
+  padding: 10px; 
+  margin:10px;">sky</div>
+  
+  <div class="buttons" id="yellow" style="border:2px solid red;
+  background-color: yellow;
+  height:155px; 
+  width:223px;
+  padding:10px;
+  margin:10px;">yellow </div>
+  
+  <div class="buttons" id="pink" style="border:2px
+  solid red;
+  background-color: pink;
+  height:155px; 
+  width:223px;
+  padding:10px;
+  margin:10px;"> pink</div>
+  
+  <div class="buttons" id="orange" style="border:2px
+  solid red;
+  background-color: orange;
+  height:155px; 
+  width:223px;
+  padding:10px;
+  margin:10px;"> orange</div>
+  
+</div>
+</body>
+<script>
+/**const chaps=document.querySelectorAll('.abs')
+  console.log(chaps)
+  chaps[0].style.color='orange'
+ chaps.forEach(function (d)
+  {d.innerHTML="hello"
+ })
+ chaps[0].innerHTML="Sakshi"
+  console.log(chaps)**/
+  
+  const buttons = document.querySelectorAll('.buttons');
+  const body = document.querySelector('body');
+  
+buttons.forEach(function (button){
+  button.addEventListener('click',function(e){
+    if(e.target.id==='skyblue')
+    {body.style.backgroundColor= e.target.id;
+    }
+    
+    if(e.target.id==='yellow')
+    {body.style.backgroundColor= e.target.id;
+    }
+    if(e.target.id==='pink')
+    {body.style.backgroundColor= e.target.id;
+    }
+    if(e.target.id==='orange')
+    {body.style.backgroundColor= e.target.id;
+    }
+  });
+});
+  
+</script>
+
+</html>
