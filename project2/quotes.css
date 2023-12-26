@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    
+    .container 
+  {
+    background-color: lightgrey; 
+    color: black; 
+    font-size: 50px; 
+  }
+  h1 {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px; 
+  
+  }
+  
+  .quotesdisplay
+  {
+    background-color: beige;
+   height:70vh;
+  }
+  .button
+  {
+    height:50px;
+    width: 165px; 
+    color:red;
+    background-color:skyblue;
+    border-radius: 10px; 
+   padding: auto 100px; 
+   margin: auto 150px; 
+  
+  }
+  .quotesdisplay{
+    display: flex;
+    border: 5px solid rosybrown;
+    justify-content: center; 
+    align-items: center; 
+    height:50vh;
+  }
+  .whole{
+    border:red;
+    height:70vh;
+  
+  }
